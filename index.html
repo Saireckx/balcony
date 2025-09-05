@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Балкони & Вікна</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Delius&family=Delius+Swash+Caps&family=Kurale&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
+    rel="stylesheet">
+
+  <!-- font awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <!-- bootstrap slider -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-logo"> <span class="name">Балкони & Вікна</span></div>
+
+    <div class="header-list__block">
+      <ul class="header-list">
+        
+          <li class="header-list-item"
+            onclick="document.getElementById('mainTarget').scrollIntoView({behavior:'smooth'})">Головна</li>
+       
+       
+          <li class="header-list-item"
+            onclick="document.getElementById('aboutTarget').scrollIntoView({behavior:'smooth'})">Про нас</li>
+       
+        
+          <li class="header-list-item"
+            onclick="document.getElementById('advantagesTarget').scrollIntoView({behavior:'smooth'})">Чому саме ми?</li>
+       
+        
+          <li class="header-list-item"
+            onclick="document.getElementById('orderTarget').scrollIntoView({behavior:'smooth'})">Замовити</li>
+       
+        
+          <li class="header-list-item"
+            onclick="document.getElementById('sliderTarget').scrollIntoView({behavior:'smooth'})">Наші роботи</li>
+        
+
+      </ul>
+    </div>
+
+    <div class="call-numbers">
+      <div class="call-numbers__item">
+        <i class="fa-solid fa-phone"></i>
+        <span>(096)1524142</span>
+      </div>
+      <div class="call-numbers__item">
+        <i class="fa-solid fa-phone"></i>
+        <span>(050)5322968</span>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="decorative-block__large-wrap">
+    <div class="decorative-block__large"></div>
+  </div>
+
+  <div class="main-info-block" id="mainTarget">
+    <div class="main-img"><img src="img/photo_2025-07-31_13-13-56.jpg" alt="balcony img"></div>
+    <div class="title-block">
+      <div class="title-main"><span class="first-part">Балкони & Вікна</span><span class="second-part"> з 
+          внутрішнім оздобленням</span><span>Встановлення балконів та балконних блоків з внутрішнім оздобленням під
+          ключ. </span></div>
+    </div>
+  </div>
+
+  <div class="about-us-block" id="aboutTarget">
+    <h1 class="subtitle-about">Про нас:</h1>
+    <div class="about-titles">
+      <span class="about-title">Ми компанія вже з <b>15-річним досвідом</b>,<br> яка спеціалізується на
+        виготовленні та
+        встановленні балконів під ключ. <br> За роки роботи ми реалізували сотні проєктів, <br>від невеликих балконів у
+        квартирах <br>
+        до просторих лоджій з повною внутрішньою обробкою. <br> Наша перевага — власне гарантія, <br>що дозволяє
+        контролювати
+        якість на кожному етапі: <br> від підбору матеріалів до монтажу.<br>Ми пропонуємо сучасні рішення,<br> теплі та
+        енергоефективні
+        конструкції,<br> а також індивідуальний підхід до кожного клієнта.</span>
+    </div>
+    <div class="about-img"><img src="img/reason_10.png" alt="builder img"></div>
+  </div>
+
+  <div class="advantages-block" id="advantagesTarget">
+    <h1 class="subtitle">Чому саме ми?</h1>
+    <div class="advantages">
+      <div class="advantages-row">
+        <div class="advantage">
+          <i class="fa-solid fa-check" style="color: #ffffff;"></i><span class="advantage-text">Маємо більш ніж 15 років
+            досвіду</span>
+        </div>
+        <div class="advantage">
+          <i class="fa-solid fa-check" style="color: #ffffff;"></i><span class="advantage-text">500+ задоволених
+            клієнтів</span>
+        </div>
+      </div>
+      <div class="advantages-row">
+        <div class="advantage">
+          <i class="fa-solid fa-check" style="color: #ffffff;"></i> <span class="advantage-text">Безкоштовна доставка в
+            межах міста</span>
+        </div>
+        <div class="advantage">
+          <i class="fa-solid fa-check" style="color: #ffffff;"></i><span class="advantage-text">Швидкий монтаж</span>
+        </div>
+        <div class="advantage">
+          <i class="fa-solid fa-check" style="color: #ffffff;"></i><span class="advantage-text">Надійно - гарантія до 10
+            років</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+ <div class="works-block">
+   <h1 class="works-subtitles">Які роботи входять?</h1>
+
+   <div class="works-item__wrap">
+    <div class="work-item">
+      <i class="fa-solid fa-leaf"></i>
+      <span class="item-title">Внутрішнє Оздоблення</span>
+      <span class="item-text">Під внутрішнім оздобленням ми розуміємо обшивку стін, стелі та підлоги на балконі. Використовуємо пластик, ламінат, плитку, клінкер тощо. Працюємо також з індивідуальними побажаннями</span>
+    </div>
+
+     <div class="work-item">
+      <i class="fa-solid fa-temperature-three-quarters"></i>
+      <span class="item-title">Утеплення Балкону</span>
+      <span class="item-text">В балконах під ключ, частіше всього ми утеплюємо весь периметр за допомогою мінеральної вати та пенополістеролу.</span>
+    </div>
+
+    <div class="work-item">
+      <i class="fa-solid fa-shield-halved"></i>
+      <span class="item-title">Зовнішня Обшивка</span>
+      <span class="item-text">Для даних робіт, на вибір клієнта, застосовується пластик або сайдинг від європейських та вітчизняних виробників</span>
+    </div>
+
+    <div class="work-item">
+      <i class="fa-solid fa-city" ></i>
+      <span class="item-title">Зварювання Балкону</span>
+      <span class="item-text">Розварювання балкону – це посилення його каркасу або повна його заміна на більш міцний</span>
+    </div>
+   </div>
+ </div>
+
+
+ <div class="balcony-block">
+  <h1 class="subtitle-balcony">Також ми робимо:</h1>
+  
+  <div class="balcony-item__wrap">
+  <div class="balcony-item">
+    <img src="img/osteklenie-balkona-s-vynosom-po-polu.jpg" alt="">
+    <span class="balcony-title">Виніс балкона</span>
+    <span class="balcony-text">За допомогою технології винесення балкона,</span>
+    <span class="balcony-text1">ви отримаєте додатковий простір.</span>
+  </div>
+
+  <div class="balcony-item">
+    <img src="img/image.webp" alt="">
+    <span class="balcony-title">Французський балкон</span>
+    <span class="balcony-text">Дизайн що передбачае панорамне скління балконного простору.</span>
+    <span class="balcony-text1"></span>
+  </div>
+  </div>
+ </div>
+
+
+
+  <div class="our-supports-block" id="supportTarget">
+    <h1 class="our-supports-subtitle">Співпрацюємо з:</h1>
+    <div class="our-supports">
+      <img class="support-img" src="img/wds.png" alt="wds img">
+      <img class="support-img" src="img/images.png" alt="steko img">
+      <img class="support-img" src="img/logo_new_nn_web.jpg" alt="veka img">
+      <img class="support-img" src="img/logo-color.svg" alt="glasso img">
+      <img class="support-img" src="img/logo.svg" alt="Vikna novi img">
+    </div>
+
+  </div>
+
+  <div class="decorative-block-second__large-wrap">
+    <div class="decorative-block__large"></div>
+  </div>
+
+  <div class="order-block" id="orderTarget">
+    <div class="order-titles">
+      <span class="subtitles-order">Бажаете зробити замовлення?</span>
+      <span class="titles-order-first">Проконсультуйтесь з нашим менеджером </span>
+      <span class="titles-order-second">та оберіть найкращий варіант для себе!</span>
+      <div class="numbers">
+        <div class="number-item">
+          <i class="fa-solid fa-phone" style="color: #4ea674;"></i>
+          <span>(096)1524142</span>
+        </div>
+        <div class="number-item">
+          <i class="fa-solid fa-phone" style="color: #4ea674;"></i>
+          <span>(050)5322968</span>
+        </div>
+
+        <button class="order-btn">Замовити консультацію</button>
+
+        <div class="modal-form" id="modalForm">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <form class="contact-form" id="form">
+      <input type="text" id="name" name="name" placeholder="Ваше им'я" required>
+      <input type="tel" id="phone" name="phone" placeholder="Ваш телефон" required>
+      <button type="submit">Відправити</button>
+
+      <p class="succes disp" >Заявка відправлена!</p>
+    </form>
+  </div>
+</div>
+ 
+      </div>
+    </div>
+    <div class="order-img"><img src="img/istockphoto-1427671762-612x612.jpg" alt="window img"></div>
+  </div>
+
+  <h1 class="subtitle-slider">Наші роботи:</h1>
+  <div class="slider-block" id="sliderTarget">
+
+    <div class="slider-container">
+      <div class="slider-wrapper">
+        <img src="img/photo_2025-08-15_21-13-00.jpg" alt="">
+        <img src="img/photo_2025-08-15_21-10-29.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-13-33.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-13-53.jpg" alt="example img">
+        <img src="img/photo_2025-07-31_13-13-56.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-14-01.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-14-53.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-14-58.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-15-02.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-15-39.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-08.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-12.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-15.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-18.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-22.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-25.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-28.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-32.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-34.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-38.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-42.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-45.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-48.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-51.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-54.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-57.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-16-59.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-17-03.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-17-06.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-17-09.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-17-12.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-17-15.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-17-17.jpg" alt="example img">
+        <img src="img/photo_2025-08-15_21-17-20.jpg" alt="example img">
+      </div>
+      <button class="nav-btn prev">&#10094;</button>
+      <button class="nav-btn next">&#10095;</button>
+    </div>
+    <div id="slider-modal" class="slider-modal">
+      <span class="slider-modal-close">&times;</span>
+      <button class="slider-modal-btn prev">&#10094;</button>
+      <img class="slider-modal-img" src="" alt="full">
+      <button class="slider-modal-btn next">&#10095;</button>
+    </div>
+  </div>
+
+  <div class="often-asks-block">
+<section class="faq-section">
+        <div class="faq-container">
+            <h2 class="faq-title">Часті запитання:</h2>
+            
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span>З яких робіт складається послуга «балкон під ключ»?</span>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-text">
+                            
+                            <ul>
+                                <li>Проведення замірів;</li>
+                                <li>Демонтаж старого балкона чи його елементів;</li>
+                                <li>Підбір та розрахунок потрібної кількості матеріалів;</li>
+                                <li>Виконання скління;</li>
+                                <li>Встановлення даху, якщо це потрібно;</li>
+                                <li>Зовнішнє оздоблення;</li>
+                                <li>Утеплення балкона;</li>
+                              <li>Декоративне облицювання та оздоблювальні роботи.</li>
+                            </ul>
+                            <p>Ми завжди узгоджуємо графік робіт з клієнтом та дотримуємося встановлених термінів. Весь процес контролюється нашими майстрами з багаторічним досвідом.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <span>Від чого залежить ціна?</span>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-text">
+                            
+                            <ul>
+                                <li>Габарити балкона;</li>
+                                <li>його стан та специфічні риси конструкції;</li>
+                                <li>обсяги необхідних операцій;</li>
+                                <li>необхідність проведення додаткових комунікацій: освітлення, теплої підлоги, вентиляції тощо; </li>
+                                <li>терміновість проведення робіт;</li>
+                                <li>ціна матеріалів, що використовуються у ремонті;</li>
+                                <li>використання спеціалізованого інструментарію та обладнання;</li>
+                                <li>залучення сторонніх фахівців, наприклад, дизайнерів чи промислових альпіністів;</li>
+                                <li>створення дизайн-проекту;</li>
+                                <li>необхідність утеплення та гідроізоляції;</li>
+                                <li>декоративне оздоблення та інші операції.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  </div>
+
+
+
+  <footer>
+    <div class="footer-list__block">
+      <ul class="footer-list">
+        
+          <li class="footer-list-item"
+            onclick="document.getElementById('mainTarget').scrollIntoView({behavior:'smooth'})">Головна</li>
+      
+        
+          <li class="footer-list-item"
+            onclick="document.getElementById('aboutTarget').scrollIntoView({behavior:'smooth'})">Про нас</li>
+       
+        
+          <li class="footer-list-item"
+            onclick="document.getElementById('advantagesTarget').scrollIntoView({behavior:'smooth'})">Чому саме ми?</li>
+       
+        
+          <li class="footer-list-item"
+            onclick="document.getElementById('orderTarget').scrollIntoView({behavior:'smooth'})">Замовити</li>
+        
+        
+          <li class="footer-list-item"
+            onclick="document.getElementById('sliderTarget').scrollIntoView({behavior:'smooth'})">Наші роботи</li>
+        
+
+      </ul>
+      <div class="call-numbers-footer">
+        <div class="call-numbers-footer__item">
+          <i class="fa-solid fa-phone " style="color: #ffffff;"></i>
+          <span>(096)1524142</span>
+        </div>
+        <div class="call-numbers-footer__item">
+          <i class="fa-solid fa-phone " style="color: #ffffff;"></i>
+          <span>(050)5322968</span>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="app.js"></script>
+  <script src="bot.js"></script>
+</body>
+
+</html>
